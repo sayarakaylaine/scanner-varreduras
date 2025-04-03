@@ -3,15 +3,15 @@ Este projeto é um scanner de portas TCP e UDP que permite verificar o estado de
 
 🛠 Funcionalidades
 
-🔍 Varredura de portas TCP e UDP
+- Varredura de portas TCP e UDP
 
-🌐 Suporte a múltiplos IPs e intervalos de portas
+- Suporte a múltiplos IPs e intervalos de portas
 
-🎨 Interface gráfica para facilitar o uso
+- Interface gráfica para facilitar o uso
 
-⚡ Execução em threads para melhor desempenho
+- Execução em threads para melhor desempenho
 
-🖥 Tecnologias Utilizadas
+- Tecnologias Utilizadas
 
 Python
 
@@ -52,14 +52,6 @@ Para abrir a interface gráfica:
 python scanner_varredura.py
 
 A interface permite inserir o IP, escolher portas e selecionar os modos de varredura TCP e UDP.
-
-📸 Capturas de Tela
-
-🔜 Adicione imagens da interface gráfica aqui para ilustrar melhor o uso do programa.
-
-📜 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para modificar e contribuir! 🚀
 
 ⚠ Aviso Legal
 
