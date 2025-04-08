@@ -1,4 +1,4 @@
-# 🔎 Scanner de Portas TCP/UDP
+# Scanner de Portas TCP/UDP
 
 Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a interface gráfica (Tkinter) e linha de comando. Ideal para diagnósticos de rede e testes de segurança em ambientes autorizados.
 
