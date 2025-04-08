@@ -18,7 +18,7 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - [Python 3](https://www.python.org/)
 - **Tkinter** – GUI nativa do Python
 - [Scapy](https://scapy.net/) – Varredura de portas UDP
-- **Socket** (nativo do Python) – Varredura TCP
+- **Socket** (módulo nativo) – Varredura TCP
 - **Threading** – Execução paralela de varreduras
 
 ---
