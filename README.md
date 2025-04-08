@@ -75,6 +75,6 @@ Ao finalizar a varredura na GUI, clique em **Exportar Relatório**. Será salvo 
 ## ⚠ Aviso Legal
 Esta ferramenta é de uso **educacional** e não deve ser utilizada em redes sem autorização. O uso indevido pode configurar crime segundo leis locais
 
-## 👨‍💻 Autora
+## 👩🏻‍💻 Autora
 Desenvolvido por **`Sayara Kaylaine Oliveira Silva`**, sob orientação do professor **`Karan Luciano`**, no Instituto Federal de Rondônia (IFRO) - Campus Ji-Paraná.
 
