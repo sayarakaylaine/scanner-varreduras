@@ -1,18 +1,34 @@
-# Scanner de Portas TCP/UDP
+# 🔎 Scanner de Portas TCP/UDP
 
-Este projeto é um scanner de portas TCP e UDP que permite verificar o estado de portas abertas, fechadas ou filtradas em dispositivos de rede. O programa pode ser executado tanto via linha de comando (CLI) quanto por uma interface gráfica (GUI) desenvolvida com Tkinter.
+Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a interface gráfica (Tkinter) e linha de comando. Ideal para diagnósticos de rede e testes de segurança em ambientes autorizados.
+
+---
 
 ## 🛠 Funcionalidades
-- Varredura de portas TCP e UDP
-- Suporte a múltiplos IPs e intervalos de portas
-- Interface gráfica para facilitar o uso
-- Execução em threads para melhor desempenho
+- Varredura de portas **TCP** e **UDP**
+- Suporte à seleção de faixa de portas e múltiplos IPs
+- Interface Gráfica (GUI) com **Tkinter**
+- Exportação de resultados para **CSV**
+- Execução com **multi-threading** para melhor desempenho
+
+---
 
 ## 🖥 Tecnologias Utilizadas
-- **Python**
-- **Tkinter** (Interface gráfica)
-- **Scapy** (Varredura de portas UDP)
-- **Socket** (Varredura de portas TCP)
+- [Python 3](https://www.python.org/)
+- **Tkinter** (nativo do Python) / Interface gráfica
+- [Scapy](https://scapy.net/) / Varredura de portas UDP
+- **Socket** (nativo do Python) / Varredura de portas TCP
+- **Threading** (nativo do Python)
+
+---
+
+## 💻 Requisitos
+
+- Python 3.7 ou superior
+- Sistema Linux (suporte opcional para Windows/macOS)
+- Permissões administrativas para envio de pacotes UDP
+
+---
 
 ## 🛂 Instalação das Dependências
 Antes de executar o programa, instale as bibliotecas necessárias:
