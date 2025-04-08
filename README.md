@@ -44,7 +44,6 @@ Para abrir a interface gráfica:
 ```bash
 python scanner_varredura.py
 ```
-*A interface permite inserir o IP, escolher portas e selecionar os modos de varredura TCP e UDP.*
 
 Para utilizar a interface gráfica:
 
