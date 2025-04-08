@@ -2,8 +2,6 @@
 
 Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a interface gráfica (Tkinter) e linha de comando. Ideal para diagnósticos de rede e testes de segurança em ambientes **autorizados**.
 
----
-
 ## 🛠 Funcionalidades
 - Varredura de portas **TCP** e **UDP**
 - Suporte a **múltiplos IPs** e **faixas de portas**
@@ -12,16 +10,12 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - Execução **multi-thread** para maior desempenho
 - Compatível com sistemas **Linux** (suporte opcional para Windows/macOS)
 
----
-
 ## 🖥 Tecnologias Utilizadas
 - [Python 3](https://www.python.org/)
 - **Tkinter** – GUI nativa do Python
 - [Scapy](https://scapy.net/) – Varredura de portas UDP
 - **Socket** (módulo nativo) – Varredura TCP
 - **Threading** – Execução paralela de varreduras
-
----
 
 ## 💻 Requisitos
 
@@ -78,13 +72,9 @@ Ao finalizar a varredura na GUI, clique em **Exportar Relatório**. Será salvo 
 - Porta
 - Protocolo
 - Status (Aberta, Fechada, Filtrada)
-  
----
 
 ## ⚠ Aviso Legal
 Esta ferramenta é de uso educacional e não deve ser utilizada em redes sem autorização. O uso indevido pode configurar crime segundo leis locais
-
----
 
 ## 👨‍💻 Autora
 Desenvolvido por **`Sayara Kaylaine Oliveira Silva`**, sob orientação do professor **`Karan Luciano`**, no Instituto Federal de Rondônia (IFRO) - Campus Ji-Paraná.
