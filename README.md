@@ -80,5 +80,5 @@ Esta ferramenta é **educacional**. Use apenas em redes sob sua autorização. O
 ---
 
 ## 👨‍💻 Autora
-Desenvolvido por `**Sayara Kaylaine Oliveira Silva**`, sob orientação do professor `**Karan Luciano**`, no Instituto Federal de Rondônia (IFRO) - Campus Ji-Paraná.
+Desenvolvido por **`Sayara Kaylaine Oliveira Silva`**, sob orientação do professor **`Karan Luciano`**, no Instituto Federal de Rondônia (IFRO) - Campus Ji-Paraná.
 
