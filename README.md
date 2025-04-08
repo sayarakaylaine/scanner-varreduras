@@ -27,7 +27,6 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 ---
 
 ## 🛂 Instalação das Dependências
-### Manual (via pip)
 Antes de executar o programa, instale as bibliotecas necessárias:
 
 ```bash
