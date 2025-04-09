@@ -57,11 +57,11 @@ python scanner_varredura.py
 
 Como utilizar a interface gráfica:
 
-- 1. Insira o(s) IP(s) desejado(s)
-- 2. Defina a faixa ou lista de portas
-- 3. Selecione TCP, UDP ou ambos
-- 4. Clique em Iniciar Varredura
-- 5. Exporte o relatório (opcional)
+- Insira o(s) IP(s) desejado(s)
+- Defina a faixa ou lista de portas
+- Selecione TCP, UDP ou ambos
+- Clique em Iniciar Varredura
+- Exporte o relatório (opcional)
 
 ### Modo Linha de Comando (CLI)
 Para rodar a varredura via terminal, sem interface:
