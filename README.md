@@ -6,7 +6,7 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - Varredura de portas **TCP** e **UDP**
 - Suporte a **múltiplos IPs** e **faixas de portas**
 - Interface Gráfica (GUI) intuitiva, com **Tkinter**
-- **Exportação de relatório** no formato **.CSV** e **PDF**
+- **Exportação de relatório** no formato **.CSV** e **.PDF**
 - Execução **multi-thread** para maior desempenho
 - Compatível com sistemas **Linux** (suporte opcional para Windows/macOS)
 
@@ -57,11 +57,11 @@ python scanner_varredura.py
 
 Como utilizar a interface gráfica:
 
-- Insira o(s) IP(s) desejado(s)
-- Defina a faixa ou lista de portas
-- Selecione TCP, UDP ou ambos
-- Clique em Iniciar Varredura
-- Exporte o relatório (opcional)
+1. Insira o(s) IP(s) desejado(s)
+2. Defina a faixa ou lista de portas
+3. Selecione TCP, UDP ou ambos
+4. Clique em Iniciar Varredura
+5. Exporte o relatório para .csv ou .pdf (opcional)
 
 ### Modo Linha de Comando (CLI)
 Para rodar a varredura via terminal, sem interface:
@@ -79,7 +79,7 @@ Parâmetros a utilizar:
 ---
 
 ## 📄 Exportação de Relatório
-Ao finalizar a varredura na **GUI**, clique em **Exportar para CSV** ou **Exportar para PDF**. Será salvo um arquivo `.csv` ou `pdf` com os seguintes campos:
+Ao finalizar a varredura na **GUI**, clique em **Exportar para CSV** ou **Exportar para PDF**. Será salvo um arquivo `.csv` ou `.pdf` com os seguintes campos:
 
 - IP
 - Porta
