@@ -78,6 +78,18 @@ Ao finalizar a varredura na **GUI**, clique em **Exportar para CSV** ou **Export
 - Protocolo
 - Estado (Aberta, Fechada, Filtrada, etc.)
 
+---
+
+## 📦 Clonando o Repositório
+
+```bash
+git clone https://github.com/sayarakaylaine/scanner-varreduras.git
+cd nome-do-repo
+python scanner_varredura.py
+```
+
+---
+
 ## ⚠ Aviso Legal
 Esta ferramenta é de uso **educacional** e não deve ser utilizada em redes sem autorização. O uso indevido pode configurar crime segundo leis locais
 
