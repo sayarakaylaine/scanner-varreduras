@@ -6,7 +6,7 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - Varredura de portas **TCP** e **UDP**
 - Suporte a **múltiplos IPs** e **faixas de portas**
 - Interface Gráfica (GUI) intuitiva, com **Tkinter**
-- **Exportação de relatório** no formato **.CSV**
+- **Exportação de relatório** no formato **.CSV** e **PDF**
 - Execução **multi-thread** para maior desempenho
 - Compatível com sistemas **Linux** (suporte opcional para Windows/macOS)
 
@@ -16,6 +16,8 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - [Scapy](https://scapy.net/) – Varredura de portas UDP
 - **Socket** (módulo nativo) – Varredura TCP
 - **Threading** – Execução paralela de varreduras
+- **FPDF** – Geração de relatórios em PDF
+- **CSV** – Geração de relatórios em formato tabular
 
 ## 🧾 Requisitos
 
@@ -23,7 +25,7 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - Sistema Linux (preferencialmente)
 - Permissão sudo (em alguns sistemas para pacotes UDP)
 -  Internet (para instalar as dependências)
-
+  
 ---
 
 ## 🛂 Instalação das Dependências
@@ -31,6 +33,10 @@ Antes de executar o programa, instale as bibliotecas necessárias:
 
 ```bash
 pip install scapy
+```
+
+```bash
+pip install fpdf
 ```
 
 ## 🚀 Como Executar
@@ -65,12 +71,12 @@ Parâmetros a utilizar:
 ---
 
 ## 📄 Exportação de Relatório
-Ao finalizar a varredura na GUI, clique em **Exportar Relatório**. Será salvo um arquivo `.csv` com os seguintes campos:
+Ao finalizar a varredura na **GUI**, clique em **Exportar para CSV** ou **Exportar para PDF**. Será salvo um arquivo `.csv` ou `pdf` com os seguintes campos:
 
 - IP
 - Porta
 - Protocolo
-- Status (Aberta, Fechada, Filtrada)
+- Estado (Aberta, Fechada, Filtrada, etc.)
 
 ## ⚠ Aviso Legal
 Esta ferramenta é de uso **educacional** e não deve ser utilizada em redes sem autorização. O uso indevido pode configurar crime segundo leis locais
