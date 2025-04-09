@@ -26,6 +26,14 @@ Este projeto é uma ferramenta de varredura de portas TCP e UDP com suporte a in
 - Permissão sudo (em alguns sistemas para pacotes UDP)
 -  Internet (para instalar as dependências)
   
+## 📦 Clonando o Repositório
+
+```bash
+git clone https://github.com/sayarakaylaine/scanner-varreduras.git
+cd scanner-varreduras
+python scanner_varredura.py
+```
+
 ---
 
 ## 🛂 Instalação das Dependências
@@ -79,14 +87,6 @@ Ao finalizar a varredura na **GUI**, clique em **Exportar para CSV** ou **Export
 - Estado (Aberta, Fechada, Filtrada, etc.)
 
 ---
-
-## 📦 Clonando o Repositório
-
-```bash
-git clone https://github.com/sayarakaylaine/scanner-varreduras.git
-cd scanner-varreduras
-python scanner_varredura.py
-```
 
 ## ⚠ Aviso Legal
 Esta ferramenta é de uso **educacional** e não deve ser utilizada em redes sem autorização. O uso indevido pode configurar crime segundo leis locais
